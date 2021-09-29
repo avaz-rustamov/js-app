@@ -19,16 +19,49 @@ rec.onresult = function (evt) {
 
 	if (command === '1') {
     var elWordUzbek = document.createElement("span");
-    var elWordEnglish = document.addEventListener(".word__english")
     elWordUzbek.setAttribute("class", "word__uzbek")
     elWordUzbek.textContent = " Aniq aritikl"
-    elWordUzbek.appendChild(elWordUzbek);
+    word__english.appendChild(elWordUzbek);
 	} else if (command === '2') {
     var elWordUzbek = document.createElement("span");
-    var elWordEnglish = document.addEventListener(".word__english")
     elWordUzbek.setAttribute("class", "word__uzbek")
     elWordUzbek.textContent = " ning"
-    elWordUzbek.appendChild(elWordUzbek);
+    word__english2.appendChild(elWordUzbek);
+	} else if (command === '3') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " va"
+    word__english3.appendChild(elWordUzbek);
+	} else if (command === '4') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " Artikl"
+    word__english4.appendChild(elWordUzbek);
+	}else if (command === '5') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " Ga"
+    word__english5.appendChild(elWordUzbek);
+	}else if (command === '6') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " Da(Ichida)"
+    word__english6.appendChild(elWordUzbek);
+	}else if (command === '7') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " To Be"
+    word__english7.appendChild(elWordUzbek);
+	}else if (command === '8') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " Siz"
+    word__english8.appendChild(elWordUzbek);
+	}else if (command === '9') {
+    var elWordUzbek = document.createElement("span");
+    elWordUzbek.setAttribute("class", "word__uzbek")
+    elWordUzbek.textContent = " Bu"
+    word__english9.appendChild(elWordUzbek);
 	}
 };
 

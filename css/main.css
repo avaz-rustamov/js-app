@@ -223,9 +223,64 @@ img {
 .word__list {
   padding-left: 0;
   color: #333;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
-.word__english {
+.comment {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#word__english {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english2 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english3 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english4 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english5 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english6 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english7 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english8 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english9 {
+  color: red;
+  font-size: 25px;
+}
+
+#word__english10 {
   color: red;
   font-size: 25px;
 }

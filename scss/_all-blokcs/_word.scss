@@ -1,0 +1,30 @@
+.word__heading {
+  display: flex;
+  justify-content: center;
+  color: #F9CF93;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.word__list {
+  padding-left: 0;
+  color: #333;
+}
+.word__english {
+  color: red;
+  font-size: 25px;
+}
+#recBtn {
+  display: flex;
+  border: none;
+  background-color: #DBD0C0;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+.word__uzbek {
+    color: #79B4B7;
+}
